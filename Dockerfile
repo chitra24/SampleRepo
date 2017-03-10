@@ -16,7 +16,7 @@ RUN curl -Ls https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terra
     rm -f terraform.zip
 
 RUN cd /home/ && \
-    git clone https://github.com/ramanacs09/Terraform.git
+    git clone https://github.com/chitra24/SampleRepo.git
 
 
 #expose port

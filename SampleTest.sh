@@ -7,8 +7,19 @@
 #read buildname
 #echo -n "Enter command with fully qualified path name to execute:>"
 #read command1
-export BUILD_NAME=jenkinscentos2
-export FILE_PATH=/home/TestRepository/Test
-export COMMAND = terraform apply
-docker build -t ${BUILD_NAME} ${FILE_PATH}
-docker run -it ${BUILD_NAME} ${COMMAND}
+#export BUILD_NAME="jenkinscentos1"
+#export FILE_PATH="."
+#export COMMAND="/bin/sh"
+#docker build -t ${BUILD_NAME} ${FILE_PATH}
+echo "Print the details"
+echo "+++++++++++++++++"
+#docker run -it ${BUILD_NAME} ${COMMAND}
+
+while true;
+then
+   status=$(ps -ef | grep -i example.jar )
+   if [!  -z $status ]; 
+       then
+        sleep 10;
+   fi
+

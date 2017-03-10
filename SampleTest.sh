@@ -7,10 +7,6 @@
 #read buildname
 #echo -n "Enter command with fully qualified path name to execute:>"
 #read command1
-#export BUILD_NAME="jenkinscentos1"
-#export FILE_PATH="."
-#export COMMAND="/bin/sh"
-#docker build -t ${BUILD_NAME} ${FILE_PATH}
 echo "Print the details"
 echo "+++++++++++++++++"
 #docker run -it ${BUILD_NAME} ${COMMAND}

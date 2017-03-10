@@ -23,7 +23,7 @@ RUN cd /home/ && \
 EXPOSE 8080
 
 # entrypoint to start lcs service when container kicks off to run
-ENTRYPOINT ["/home/SampleTest.sh"] 
+ENTRYPOINT ["/home/SampleRepo/SampleTest.sh"] 
 
 
 #RUN cd /home/Terraform/Test/
